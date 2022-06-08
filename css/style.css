@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.header-verde {
+  height: 38px;
+  background: #1cd1b0;
+}
+
+.header-verde span {
+  position: absolute;
+  width: 150px;
+  height: 18px;
+  left: 10px;
+  top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.header-azul {
+  position: sticky;
+  height: 101px;
+  left: 0px;
+  top: 38px;
+  padding-left: 20px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header-azul h1 {
+  position: absolute;
+  top: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carta {
+  display: inline-block;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-bottom: 100px;
+  padding: 0px;
+}
+
+.corazon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.foto {
+  position: absolute;
+  border-radius: 50%;
+  width: 120px;
+  height: 118px;
+  left: 90px;
+  top: 134px;
+}
+
+.caja-pelicula {
+  width: 300px;
+  height: 336px;
+  left: 32px;
+  top: 485px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.caja-pelicula h2 {
+  position: relative;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.caja-pelicula p {
+  padding-left: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.caja-pelicula button {
+  position: absolute;
+  width: 128px;
+  height: 48px;
+  left: 80px;
+  bottom: 10px;
+  color: white;
+  background: #00669f;
+}
+
+.carta img {
+  display: block;
+}
+
+.footer {
+  position: static;
+  height: 51px;
+  left: 0px;
+  top: 972px;
+  color: white;
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+}
